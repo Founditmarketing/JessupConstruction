@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Jessup Construction — Native American Owned General Contractor</title>
+  <meta name="description" content="Learn about Jessup Construction — a Native American owned general contractor with 30+ years of experience serving Central Louisiana. ISN certified, federal disaster relief contractor.">
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVIGATION (reused) -->
+<nav id="site-nav" class="solid" role="navigation" aria-label="Main navigation">
+  <div class="nav-main">
+    <div class="container">
+      <div class="nav-main-inner">
+        <a href="index.html" class="nav-logo">
+          <img src="img/logo.png" alt="Jessup Construction" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+          <span style="display:none;font-family:var(--font-display);font-size:1.5rem;color:var(--concrete-white);">JESSUP<span style="color:var(--safety-orange);">.</span></span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link active">About</a></li>
+          <li class="nav-item-services">
+            <span class="nav-link nav-services-trigger">Services <span class="chevron">▾</span></span>
+            <div class="mega-menu">
+              <div class="mega-menu-header"><span class="mega-menu-title">Our Services</span></div>
+              <div class="mega-menu-grid">
+                <div>
+                  <div class="mega-col-title">Construction</div>
+                  <a href="service-commercial.html" class="mega-menu-item">Commercial Construction</a>
+                  <a href="service-housing.html" class="mega-menu-item">Affordable Housing</a>
+                  <a href="service-reno.html" class="mega-menu-item">Residential Renovations</a>
+                  <div class="mega-col-title" style="margin-top:var(--space-4)">Infrastructure</div>
+                  <a href="service-concrete.html" class="mega-menu-item">Concrete</a>
+                  <a href="service-asphalt.html" class="mega-menu-item">Asphalt Paving</a>
+                  <a href="service-roofing.html" class="mega-menu-item">Roofing</a>
+                  <div class="mega-col-title" style="margin-top:var(--space-4)">Planning</div>
+                  <a href="service-plans.html" class="mega-menu-item">Plan Development & Drafting</a>
+                </div>
+                <div>
+                  <div class="mega-col-title">Specialty</div>
+                  <a href="service-boathouse.html" class="mega-menu-item">Boathouse Construction</a>
+                  <a href="service-seawalls.html" class="mega-menu-item">Seawalls</a>
+                  <a href="service-fencing.html" class="mega-menu-item">Privacy Fencing</a>
+                  <a href="service-drainage.html" class="mega-menu-item">Drainage</a>
+                  <div class="mega-col-title" style="margin-top:var(--space-4)">Emergency</div>
+                  <a href="service-storm.html" class="mega-menu-item emergency">Storm Damage</a>
+                  <a href="service-disaster.html" class="mega-menu-item emergency">Disaster Relief</a>
+                </div>
+              </div>
+              <div class="mega-menu-cta"><a href="quote.html" class="btn btn-primary" style="width:100%;justify-content:center">Get Free Quote →</a></div>
+            </div>
+          </li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="careers.html" class="nav-link">Careers</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="quote.html" class="nav-cta">Get Quote</a>
+        <button id="nav-hamburger" class="nav-hamburger" aria-label="Open menu">
+          <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="mobile-overlay" class="mobile-overlay">
+  <div class="mobile-header">
+    <img src="img/logo.png" alt="Jessup Construction" style="height:44px" onerror="this.style.display='none'">
+    <button id="mobile-close" class="mobile-close">✕</button>
+  </div>
+  <nav class="mobile-nav-links">
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="about.html" class="mobile-nav-link">About Us</a>
+    <div class="mobile-nav-link mobile-nav-services-toggle" id="mobile-services-toggle"><span>Services</span><span class="toggle-icon">+</span></div>
+    <div id="mobile-services-list" class="mobile-services-list">
+      <a href="service-commercial.html" class="mobile-service-link">Commercial Construction</a>
+      <a href="service-concrete.html" class="mobile-service-link">Concrete</a>
+      <a href="service-asphalt.html" class="mobile-service-link">Asphalt Paving</a>
+      <a href="service-seawalls.html" class="mobile-service-link">Seawalls</a>
+      <a href="service-boathouse.html" class="mobile-service-link">Boathouse Construction</a>
+      <a href="service-disaster.html" class="mobile-service-link">Disaster Relief</a>
+    </div>
+    <a href="projects.html" class="mobile-nav-link">Projects</a>
+    <a href="careers.html" class="mobile-nav-link">Careers</a>
+    <a href="contact.html" class="mobile-nav-link">Contact</a>
+  </nav>
+  <div class="mobile-footer">
+    <a href="tel:+13182296204" class="mobile-phone">📞 (318) 229-6204</a>
+    <a href="quote.html" class="btn btn-primary" style="width:100%;justify-content:center">Get Free Quote</a>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- PAGE HERO -->
+<section class="page-hero" style="min-height:55vh;" aria-label="About page hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-overlay"></div>
+  <!-- ACCENT IMAGE -->
+  <div style="position:absolute;right:0;top:0;bottom:0;width:40%;z-index:1;overflow:hidden;">
+    <img src="img/project-hero.jpg"
+         alt="Jessup Construction work"
+         style="width:100%;height:100%;object-fit:cover;opacity:0.25;"
+         onerror="this.style.display='none'">
+    <div style="position:absolute;inset:0;background:linear-gradient(to right,var(--steel-black) 0%,transparent 40%);"></div>
+  </div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="page-hero-content">
+      <p class="page-hero-breadcrumb">
+        <a href="index.html">Home</a> <span>›</span> About Us
+      </p>
+      <div class="native-badge" style="margin-bottom:var(--space-4);">🪶 Native American Owned</div>
+      <h1 class="section-title" style="font-size:var(--text-h1);margin-bottom:var(--space-4);">
+        About Jessup<br>Construction
+      </h1>
+      <p class="page-hero-desc">30+ years building trust with quality work across Central Louisiana.</p>
+    </div>
+  </div>
+</section>
+
+<!-- OUR STORY -->
+<section class="section-pad section-dark" aria-label="Company story">
+  <div class="container">
+    <div class="grid-2" style="align-items:center;gap:var(--space-16);">
+      <div class="scroll-reveal">
+        <p class="label">Our Story</p>
+        <div class="rebar-line"></div>
+        <h2 class="section-title" style="margin-bottom:var(--space-6);">Your Building Contractors<br>in Central Louisiana</h2>
+        <p style="color:var(--concrete-mid);line-height:var(--leading-normal);margin-bottom:var(--space-4);">
+          We are a Native American owned General Contractor, with licenses in Commercial and Residential Building Construction. We are bonded and insured, for your protection.
+        </p>
+        <p style="color:var(--concrete-mid);line-height:var(--leading-normal);margin-bottom:var(--space-4);">
+          Our projects include Commercial and Residential New Construction, Renovations, and Restorations including a variety of options listed. Occupied and fully operational job sites are never a problem.
+        </p>
+        <p style="color:var(--concrete-mid);line-height:var(--leading-normal);margin-bottom:var(--space-4);">
+          We can also plan, manage, and build multi-phase projects as required. We offer a start-to-finish client experience that includes seamless communication, budgeting, staffing, on-site organization, with solid, quality craftsmanship every time.
+        </p>
+        <p style="color:var(--concrete-mid);line-height:var(--leading-normal);">
+          We have collaborated with customers and designers to produce a product you can be proud of. Call us today and bring our extensive construction experience to your next project.
+        </p>
+      </div>
+      <div class="scroll-reveal" data-delay="2">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4);">
+          <div style="grid-column:1/-1;border-radius:var(--radius-md);overflow:hidden;aspect-ratio:16/9;border:2px solid rgba(255,107,53,0.2);">
+            <img src="img/project-hero.jpg"
+                 alt="Jessup Construction project"
+                 style="width:100%;height:100%;object-fit:cover;"
+                 onerror="this.src='img/boise-3.jpg'">
+          </div>
+          <div style="background:rgba(255,107,53,0.08);border:1px solid rgba(255,107,53,0.3);border-radius:var(--radius-md);padding:var(--space-6);text-align:center;">
+            <div class="stat-number" data-count="30" data-suffix="+">30+</div>
+            <div class="stat-label">Years in Business</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(196,201,206,0.1);border-radius:var(--radius-md);padding:var(--space-6);text-align:center;">
+            <div class="stat-number" data-count="13">13</div>
+            <div class="stat-label">Service Types</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section-pad" style="background:#15191d;" aria-label="Our values">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:var(--space-12);" class="scroll-reveal">
+      <p class="label">What We Stand For</p>
+      <div class="rebar-line" style="margin:var(--space-4) auto;"></div>
+      <h2 class="section-title">Quality · Integrity · Craft</h2>
+    </div>
+    <div class="grid-3" style="gap:var(--space-8);">
+      <div class="value-card scroll-reveal" data-delay="0">
+        <div style="font-size:2rem;margin-bottom:var(--space-4);">🏗️</div>
+        <h3 class="value-title">Quality Craftsmanship</h3>
+        <p class="value-desc">We deliver solid, quality craftsmanship every time. No shortcuts. No compromises. Every joint is built to last.</p>
+      </div>
+      <div class="value-card scroll-reveal" data-delay="1">
+        <div style="font-size:2rem;margin-bottom:var(--space-4);">🤝</div>
+        <h3 class="value-title">Integrity First</h3>
+        <p class="value-desc">Seamless communication, transparent budgeting, and honest timelines. You always know what's happening on your job site.</p>
+      </div>
+      <div class="value-card scroll-reveal" data-delay="2">
+        <div style="font-size:2rem;margin-bottom:var(--space-4);">🔧</div>
+        <h3 class="value-title">Complete Solutions</h3>
+        <p class="value-desc">Start-to-finish client experience. We plan, manage, staff, and build — so you can focus on what matters most.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="section-pad section-dark" aria-label="Certifications and licenses">
+  <div class="container">
+    <div class="scroll-reveal" style="margin-bottom:var(--space-12);text-align:center;">
+      <p class="label">Certified & Licensed</p>
+      <div class="rebar-line" style="margin:var(--space-4) auto;"></div>
+      <h2 class="section-title">Our Credentials</h2>
+    </div>
+    <div class="grid-4">
+      <div class="scroll-reveal" data-delay="0" style="background:rgba(255,255,255,0.03);border:1px solid rgba(196,201,206,0.1);border-radius:var(--radius-md);padding:var(--space-8);text-align:center;">
+        <div style="font-size:3rem;margin-bottom:var(--space-4);">
+          <img src="img/isnetworld.jpg" alt="ISNetworld" style="height:64px;width:64px;object-fit:contain;border-radius:50%;margin:0 auto;" onerror="this.style.display='none'">
+        </div>
+        <h3 style="font-family:var(--font-heading);font-weight:700;font-size:var(--text-small);text-transform:uppercase;letter-spacing:var(--tracking-wide);color:var(--concrete-white);margin-bottom:var(--space-2);">ISNetworld</h3>
+        <p style="font-size:0.85rem;color:var(--concrete-dark);">ISN Certified contractor — industry-standard safety and compliance verification.</p>
+      </div>
+      <div class="scroll-reveal" data-delay="1" style="background:rgba(255,255,255,0.03);border:1px solid rgba(196,201,206,0.1);border-radius:var(--radius-md);padding:var(--space-8);text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:var(--space-4);color:var(--safety-orange);">RAVS+</div>
+        <h3 style="font-family:var(--font-heading);font-weight:700;font-size:var(--text-small);text-transform:uppercase;letter-spacing:var(--tracking-wide);color:var(--concrete-white);margin-bottom:var(--space-2);">RAVS Plus</h3>
+        <p style="font-size:0.85rem;color:var(--concrete-dark);">RAVS+ certified for advanced safety record verification and scoring.</p>
+      </div>
+      <div class="scroll-reveal" data-delay="2" style="background:rgba(255,255,255,0.03);border:1px solid rgba(196,201,206,0.1);border-radius:var(--radius-md);padding:var(--space-8);text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:var(--space-4);">🦅</div>
+        <h3 style="font-family:var(--font-heading);font-weight:700;font-size:var(--text-small);text-transform:uppercase;letter-spacing:var(--tracking-wide);color:var(--concrete-white);margin-bottom:var(--space-2);">Federal Contractor</h3>
+        <p style="font-size:0.85rem;color:var(--concrete-dark);">CAGE Code certified national contractor for federal disaster relief programs.</p>
+      </div>
+      <div class="scroll-reveal" data-delay="3" style="background:rgba(255,255,255,0.03);border:1px solid rgba(196,201,206,0.1);border-radius:var(--radius-md);padding:var(--space-8);text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:var(--space-4);">🛡️</div>
+        <h3 style="font-family:var(--font-heading);font-weight:700;font-size:var(--text-small);text-transform:uppercase;letter-spacing:var(--tracking-wide);color:var(--concrete-white);margin-bottom:var(--space-2);">Bonded & Insured</h3>
+        <p style="font-size:0.85rem;color:var(--concrete-dark);">Fully bonded and insured for your complete protection on every project.</p>
+      </div>
+    </div>
+
+    <!-- LICENSE DETAIL -->
+    <div class="scroll-reveal" style="margin-top:var(--space-8);background:rgba(255,107,53,0.05);border:1px solid rgba(255,107,53,0.2);border-radius:var(--radius-md);padding:var(--space-8);">
+      <div class="grid-2" style="align-items:center;">
+        <div>
+          <p class="label" style="margin-bottom:var(--space-3);">Licensed Contractor</p>
+          <h3 style="font-family:var(--font-heading);font-size:var(--text-h3);font-weight:700;color:var(--concrete-white);margin-bottom:var(--space-3);">Commercial & Residential Building Construction</h3>
+          <p style="color:var(--concrete-mid);font-size:0.95rem;">Licensed by the State of Louisiana for both Commercial and Residential Building Construction. Every job is done to code, every time.</p>
+        </div>
+        <div style="text-align:right;">
+          <a href="quote.html" class="btn btn-primary">Start Your Project →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREA -->
+<section class="section-pad" style="background:#15191d;" aria-label="Service area">
+  <div class="container">
+    <div class="grid-2" style="align-items:center;gap:var(--space-12);">
+      <div class="scroll-reveal">
+        <p class="label">Where We Work</p>
+        <div class="rebar-line"></div>
+        <h2 class="section-title" style="margin-bottom:var(--space-6);">Central Louisiana<br>Service Area</h2>
+        <p style="color:var(--concrete-mid);line-height:var(--leading-normal);margin-bottom:var(--space-6);">
+          Based in Pineville, Louisiana, we serve the entire Central Louisiana region with commercial, residential, and industrial construction services. Our waterfront team travels to all Central Louisiana waterways for boathouse and seawall construction.
+        </p>
+        <div class="check-list">
+          <div class="check-item"><div class="check-icon">✓</div><span>Pineville, LA — Home Base</span></div>
+          <div class="check-item"><div class="check-icon">✓</div><span>Alexandria, LA</span></div>
+          <div class="check-item"><div class="check-icon">✓</div><span>Oakdale, LA</span></div>
+          <div class="check-item"><div class="check-icon">✓</div><span>Natchitoches, LA</span></div>
+          <div class="check-item"><div class="check-icon">✓</div><span>Central Louisiana Waterways</span></div>
+          <div class="check-item"><div class="check-icon">✓</div><span>Disaster Relief — Nationwide</span></div>
+        </div>
+      </div>
+      <div class="scroll-reveal" data-delay="2">
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109619.6!2d-92.4!3d31.32!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862f023af5c71965%3A0x7f9e2f1e285faaab!2sPineville%2C%20LA!5e0!3m2!1sen!2sus!4v1"
+            title="Jessup Construction service area map"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY JESSUP -->
+<section class="section-pad section-dark" aria-label="Why choose Jessup">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:var(--space-12);" class="scroll-reveal">
+      <p class="label">Why Choose Us</p>
+      <div class="rebar-line" style="margin:var(--space-4) auto;"></div>
+      <h2 class="section-title">The Jessup Difference</h2>
+    </div>
+    <div class="grid-3" style="gap:var(--space-6);">
+      <div class="scroll-reveal" data-delay="0" style="padding:var(--space-6);background:rgba(255,255,255,0.02);border:1px solid rgba(196,201,206,0.08);border-radius:var(--radius-md);text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:var(--space-4);">⚡</div>
+        <h3 style="font-family:var(--font-heading);font-weight:700;color:var(--concrete-white);margin-bottom:var(--space-3);">24/7 Availability</h3>
+        <p style="font-size:0.9rem;color:var(--concrete-dark);line-height:var(--leading-normal);">Emergency storm and disaster response available around the clock. When Louisiana needs us, we're there.</p>
+      </div>
+      <div class="scroll-reveal" data-delay="1" style="padding:var(--space-6);background:rgba(255,255,255,0.02);border:1px solid rgba(196,201,206,0.08);border-radius:var(--radius-md);text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:var(--space-4);">🏢</div>
+        <h3 style="font-family:var(--font-heading);font-weight:700;color:var(--concrete-white);margin-bottom:var(--space-3);">Occupied Sites Welcome</h3>
+        <p style="font-size:0.9rem;color:var(--concrete-dark);line-height:var(--leading-normal);">Fully operational job sites are never a problem. We work around your schedule and your business.</p>
+      </div>
+      <div class="scroll-reveal" data-delay="2" style="padding:var(--space-6);background:rgba(255,255,255,0.02);border:1px solid rgba(196,201,206,0.08);border-radius:var(--radius-md);text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:var(--space-4);">📐</div>
+        <h3 style="font-family:var(--font-heading);font-weight:700;color:var(--concrete-white);margin-bottom:var(--space-3);">Design-Build Capability</h3>
+        <p style="font-size:0.9rem;color:var(--concrete-dark);line-height:var(--leading-normal);">From blueprints to ribbon cutting, we handle every phase — planning, permitting, construction, and completion.</p>
+      </div>
+      <div class="scroll-reveal" data-delay="3" style="padding:var(--space-6);background:rgba(255,255,255,0.02);border:1px solid rgba(196,201,206,0.08);border-radius:var(--radius-md);text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:var(--space-4);">🔨</div>
+        <h3 style="font-family:var(--font-heading);font-weight:700;color:var(--concrete-white);margin-bottom:var(--space-3);">Welders & Heavy Equipment</h3>
+        <p style="font-size:0.9rem;color:var(--concrete-dark);line-height:var(--leading-normal);">Certified welders and heavy equipment operators on staff. We have the manpower and machinery to tackle any size project.</p>
+      </div>
+      <div class="scroll-reveal" data-delay="4" style="padding:var(--space-6);background:rgba(255,255,255,0.02);border:1px solid rgba(196,201,206,0.08);border-radius:var(--radius-md);text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:var(--space-4);">💬</div>
+        <h3 style="font-family:var(--font-heading);font-weight:700;color:var(--concrete-white);margin-bottom:var(--space-3);">Seamless Communication</h3>
+        <p style="font-size:0.9rem;color:var(--concrete-dark);line-height:var(--leading-normal);">You're never in the dark. Regular updates, responsive team, and a single point of contact from start to finish.</p>
+      </div>
+      <div class="scroll-reveal" data-delay="5" style="padding:var(--space-6);background:rgba(255,107,53,0.06);border:1px solid rgba(255,107,53,0.2);border-radius:var(--radius-md);text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:var(--space-4);">🪶</div>
+        <h3 style="font-family:var(--font-heading);font-weight:700;color:var(--concrete-white);margin-bottom:var(--space-3);">Community Rooted</h3>
+        <p style="font-size:0.9rem;color:var(--concrete-dark);line-height:var(--leading-normal);">Native American owned and operated. We are deeply rooted in Louisiana communities and committed to giving back through quality work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-pad" style="background:var(--concrete-deep);text-align:center;" aria-label="Get a quote">
+  <div class="container">
+    <div class="scroll-reveal">
+      <p class="label">Ready to Get Started?</p>
+      <div class="rebar-line" style="margin:var(--space-4) auto;"></div>
+      <h2 class="section-title" style="margin-bottom:var(--space-4);">Get Your Free Quote Today</h2>
+      <p style="color:var(--concrete-mid);max-width:500px;margin:0 auto var(--space-8);">Call us today and bring our extensive construction experience to your next project.</p>
+      <div style="display:flex;gap:var(--space-4);justify-content:center;flex-wrap:wrap;">
+        <a href="quote.html" class="btn btn-primary">Request Free Quote</a>
+        <a href="tel:+13182296204" class="btn btn-outline">📞 (318) 229-6204</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="img/logo.png" alt="Jessup Construction" class="footer-brand-logo" onerror="this.style.display='none'">
+        <p class="footer-brand-desc">Native American owned general contractor serving Central Louisiana for 30+ years.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/jessupconstruction/" target="_blank" rel="noopener noreferrer" class="footer-social-link">f</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-col-title">Services</h4>
+        <ul class="footer-links">
+          <li><a href="service-commercial.html" class="footer-link">▸ Commercial Construction</a></li>
+          <li><a href="service-housing.html" class="footer-link">▸ Affordable Housing</a></li>
+          <li><a href="service-concrete.html" class="footer-link">▸ Concrete</a></li>
+          <li><a href="service-seawalls.html" class="footer-link">▸ Seawalls</a></li>
+          <li><a href="service-disaster.html" class="footer-link" style="color:var(--safety-yellow)">▸ Disaster Relief</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-col-title">Company</h4>
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link">▸ Home</a></li>
+          <li><a href="about.html" class="footer-link">▸ About Us</a></li>
+          <li><a href="projects.html" class="footer-link">▸ Projects</a></li>
+          <li><a href="careers.html" class="footer-link">▸ Careers</a></li>
+          <li><a href="quote.html" class="footer-link">▸ Get a Quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-col-title">Contact</h4>
+        <div class="footer-contact-item"><span class="footer-contact-icon">📞</span><a href="tel:+13182296204">(318) 229-6204</a></div>
+        <div class="footer-contact-item"><span class="footer-contact-icon">📧</span><a href="mailto:kimberly@jessupconstruct.com">kimberly@jessupconstruct.com</a></div>
+        <div class="footer-contact-item"><span class="footer-contact-icon">📍</span><div>3306 LA-28 Suite E<br>Pineville, LA 71360</div></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2024 Jessup Construction. All rights reserved.</p>
+      <p class="footer-native">🪶 Native American Owned Business</p>
+    </div>
+  </div>
+</footer>
+
+<button id="scroll-top" class="scroll-top" aria-label="Scroll to top">↑</button>
+<script src="main.js"></script>
+</body>
+</html>
