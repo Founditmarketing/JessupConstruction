@@ -360,9 +360,9 @@ body {
 .mega-menu {
   position: absolute;
   top: calc(100% + 16px);
-  left: 50%;
-  transform: translateX(-50%) translateY(-8px);
-  width: 640px;
+  left: 0;
+  transform: translateY(-8px);
+  width: 560px;
   background: rgba(22, 26, 30, 0.98);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(196, 201, 206, 0.12);
