@@ -50,6 +50,16 @@ const SERVICES = [
     items: ['Foundation and slab pours','Driveways and parking surfaces','Patios and outdoor surfaces','Industrial concrete floors','Retaining walls and curbing','Finishing and sealing services'],
   },
   {
+    file: 'service-helical.html',
+    title: 'Helical Piers',
+    meta: 'Certified helical pier installation in Central Louisiana. Foundation support and stabilization for new construction and settling structures by Jessup Construction.',
+    hero: 'img/helical-pier-1.jpg',
+    category: 'Foundations',
+    tagline: "Stronger Foundations for a Brighter Tomorrow",
+    desc: "Jessup Construction now offers certified helical pier installation. Helical piers are steel shafts with screw-shaped plates that are driven deep into the ground until they reach stable, load-bearing soil — giving your structure a foundation that holds even where Central Louisiana's clay and wet soils shift. They are a strong choice for new foundations and for stabilizing structures that have started to settle.",
+    items: ['Helical pier installation for new foundations','Foundation repair and stabilization for settling structures','Support for slabs, additions, decks, and porches','Installation in soft, wet, or expansive Louisiana soils','Hydraulic installation with minimal excavation','Load-bearing capacity verified as each pier is installed'],
+  },
+  {
     file: 'service-asphalt.html',
     title: 'Asphalt Paving',
     meta: 'Asphalt paving services in Central Louisiana. Parking lots, driveways, and commercial paving by Jessup Construction.',
@@ -160,6 +170,7 @@ const NAV = `<nav id="site-nav" class="solid" role="navigation">
               <a href="service-reno.html" class="mega-menu-item">Residential Renovations</a>
               <div class="mega-col-title" style="margin-top:var(--space-4)">Infrastructure</div>
               <a href="service-concrete.html" class="mega-menu-item">Concrete</a>
+              <a href="service-helical.html" class="mega-menu-item">Helical Piers</a>
               <a href="service-asphalt.html" class="mega-menu-item">Asphalt Paving</a>
               <a href="service-roofing.html" class="mega-menu-item">Roofing</a>
               <a href="service-plans.html" class="mega-menu-item">Plan Development &amp; Drafting</a>
@@ -197,6 +208,7 @@ const NAV = `<nav id="site-nav" class="solid" role="navigation">
       <a href="service-housing.html" class="mobile-service-link">Affordable Housing</a>
       <a href="service-reno.html" class="mobile-service-link">Residential Renovations</a>
       <a href="service-concrete.html" class="mobile-service-link">Concrete</a>
+      <a href="service-helical.html" class="mobile-service-link">Helical Piers</a>
       <a href="service-asphalt.html" class="mobile-service-link">Asphalt Paving</a>
       <a href="service-roofing.html" class="mobile-service-link">Roofing</a>
       <a href="service-boathouse.html" class="mobile-service-link">Boathouse Construction</a>
