@@ -11,6 +11,7 @@ const path = require('path');
 const SERVICES = [
   {
     file: 'service-commercial.html',
+    gallery: ["img/work/commercial-01.jpg", "img/work/commercial-02.jpg", "img/work/commercial-03.jpg", "img/work/commercial-04.jpg", "img/work/commercial-05.jpg", "img/work/commercial-06.jpg", "img/work/commercial-07.jpg", "img/work/commercial-08.jpg", "img/work/commercial-09.jpg", "img/work/commercial-10.jpg", "img/work/commercial-11.jpg", "img/work/commercial-12.jpg"],
     title: 'Commercial Construction',
     meta: 'Commercial construction services in Central Louisiana. New construction, renovations, turnkey design-build for office, retail, and industrial properties.',
     hero: 'img/commercial-img-4.png',
@@ -21,6 +22,7 @@ const SERVICES = [
   },
   {
     file: 'service-housing.html',
+    gallery: ["img/work/housing-01.jpg", "img/work/housing-02.jpg", "img/work/housing-03.jpg", "img/work/housing-04.jpg", "img/work/housing-05.jpg", "img/work/housing-06.jpg", "img/work/housing-07.jpg", "img/work/housing-08.jpg", "img/work/housing-09.jpg", "img/work/housing-10.jpg", "img/work/housing-11.jpg", "img/work/housing-12.jpg"],
     title: 'Affordable Housing',
     meta: 'Affordable housing construction in Central Louisiana. Custom homes and modular housing built with quality materials within your budget.',
     hero: 'img/housing-home-5.jpg',
@@ -31,6 +33,7 @@ const SERVICES = [
   },
   {
     file: 'service-reno.html',
+    gallery: ["img/work/reno-01.jpg", "img/work/reno-02.jpg", "img/work/reno-03.jpg", "img/work/reno-04.jpg", "img/work/reno-05.jpg", "img/work/reno-06.jpg", "img/work/reno-07.jpg", "img/work/reno-08.jpg", "img/work/reno-09.jpg", "img/work/reno-10.jpg", "img/work/reno-11.jpg", "img/work/reno-12.jpg", "img/work/reno-13.jpg", "img/work/reno-14.jpg"],
     title: 'Residential Renovations',
     meta: 'Residential renovation services in Central Louisiana. Kitchen, bathroom, outdoor patio, and whole-house renovations by Jessup Construction.',
     hero: 'img/reno-img-4.png',
@@ -41,6 +44,7 @@ const SERVICES = [
   },
   {
     file: 'service-concrete.html',
+    gallery: ["img/work/concrete-01.jpg", "img/work/concrete-02.jpg", "img/work/concrete-03.jpg", "img/work/concrete-04.jpg", "img/work/concrete-05.jpg", "img/work/concrete-06.jpg", "img/work/concrete-07.jpg", "img/work/concrete-08.jpg", "img/work/concrete-09.jpg", "img/work/concrete-10.jpg"],
     title: 'Concrete',
     meta: 'Concrete construction services in Central Louisiana. Foundations, slabs, driveways, patios, and parking surfaces by Jessup Construction.',
     hero: 'img/concrete-img-7.png',
@@ -51,9 +55,10 @@ const SERVICES = [
   },
   {
     file: 'service-helical.html',
+    gallery: ["img/work/helical-01.jpg", "img/work/helical-02.jpg"],
     title: 'Helical Piers',
     meta: 'Certified helical pier installation in Central Louisiana. Deep, load-bearing support for new construction, additions, decks, and porches by Jessup Construction.',
-    hero: 'img/helical-pier-1.jpg',
+    hero: 'img/work/helical-01.jpg',
     category: 'Infrastructure',
     tagline: "Solid Support for New Construction",
     desc: "Jessup Construction now offers certified helical pier installation. Helical piers are steel shafts with screw-shaped plates that are driven deep into the ground until they reach stable, load-bearing soil — giving your structure a foundation that holds even where Central Louisiana's clay and wet soils shift. They are a strong choice for new construction, additions, decks, and porches.",
@@ -61,6 +66,7 @@ const SERVICES = [
   },
   {
     file: 'service-asphalt.html',
+    gallery: ["img/work/asphalt-01.jpg"],
     title: 'Asphalt Paving',
     meta: 'Asphalt paving services in Central Louisiana. Parking lots, driveways, and commercial paving by Jessup Construction.',
     hero: 'img/asphalt-paving-1.jpg',
@@ -71,6 +77,7 @@ const SERVICES = [
   },
   {
     file: 'service-roofing.html',
+    gallery: ["img/work/roofing-01.jpg", "img/work/roofing-02.jpg", "img/work/roofing-03.jpg", "img/work/roofing-04.jpg", "img/work/roofing-05.jpg"],
     title: 'Roofing',
     meta: 'Roofing services in Central Louisiana. Asphalt shingle and metal roofing for commercial and residential properties.',
     hero: 'img/roofing-1.png',
@@ -81,6 +88,7 @@ const SERVICES = [
   },
   {
     file: 'service-drainage.html',
+    gallery: ["img/work/drainage-01.jpg"],
     title: 'Drainage',
     meta: 'Drainage solutions in Central Louisiana. Grading, French drains, catch basins, and subsurface drainage by Jessup Construction.',
     hero: 'img/drainage-site-1.jpg',
@@ -91,9 +99,10 @@ const SERVICES = [
   },
   {
     file: 'service-boathouse.html',
+    gallery: ["img/work/boathouse-01.jpg", "img/work/boathouse-02.jpg", "img/work/boathouse-03.jpg", "img/work/boathouse-04.jpg", "img/work/boathouse-05.jpg", "img/work/boathouse-06.jpg", "img/work/boathouse-07.jpg", "img/work/boathouse-08.jpg", "img/work/boathouse-09.jpg", "img/work/boathouse-10.jpg", "img/work/boathouse-11.jpg", "img/work/boathouse-12.jpg", "img/work/boathouse-13.jpg", "img/work/boathouse-14.jpg"],
     title: 'Boathouse Construction',
     meta: 'Custom boathouse construction on Central Louisiana waterways. From standard builds to going all out with party decks.',
-    hero: 'img/boathouse-img-5.png',
+    hero: 'img/work/boathouse-11.jpg',
     category: 'Waterfront',
     tagline: "Custom Waterfront Structures",
     desc: 'Jessup Construction builds custom boathouses on all Central Louisiana waterways — from standard boathouses to "going all out" party deck builds. We understand the unique requirements of waterfront construction and deliver structures built to last.',
@@ -101,9 +110,10 @@ const SERVICES = [
   },
   {
     file: 'service-seawalls.html',
+    gallery: ["img/work/seawalls-01.jpg", "img/work/seawalls-02.jpg", "img/work/seawalls-03.jpg", "img/work/seawalls-04.jpg", "img/work/seawalls-05.jpg", "img/work/seawalls-06.jpg"],
     title: 'Seawalls',
     meta: 'Seawall construction and shoreline protection in Central Louisiana. Pneumatically driven pylons and custom anchoring.',
-    hero: 'img/disaster-img-2.png',
+    hero: 'img/work/seawalls-01.jpg',
     category: 'Waterfront',
     tagline: "Shoreline Protection That Lasts",
     desc: 'Protect your shoreline from erosion with a custom-engineered seawall from Jessup Construction. We serve all Central Louisiana waterways with seawall construction, repair, and shoreline stabilization solutions.',
@@ -111,6 +121,7 @@ const SERVICES = [
   },
   {
     file: 'service-fencing.html',
+    gallery: ["img/work/fencing-01.jpg", "img/work/fencing-02.jpg", "img/work/fencing-03.jpg", "img/work/fencing-05.jpg", "img/work/fencing-06.jpg", "img/work/fencing-07.jpg", "img/work/fencing-08.jpg"],
     title: 'Privacy Fencing',
     meta: 'Custom privacy fencing in Central Louisiana. Wood, ornate gates, and custom fencing by Jessup Construction.',
     hero: 'img/fencing-img-3.png',
@@ -121,9 +132,10 @@ const SERVICES = [
   },
   {
     file: 'service-plans.html',
+    gallery: ["img/work/plans-01.jpg", "img/work/plans-02.jpg", "img/work/plans-03.jpg", "img/work/plans-04.jpg"],
     title: 'Plan Development & Drafting',
     meta: 'Construction plan development and drafting in Central Louisiana. Blueprints, floor plans, and permitting prep by Jessup Construction.',
-    hero: 'img/jessup-2.png',
+    hero: 'img/work/plans-01.jpg',
     category: 'Planning',
     tagline: "From Concept to Construction-Ready",
     desc: 'Jessup Construction can plan, manage, and build multi-phase projects as required. We develop construction-ready blueprints, detailed floor plans, and permitting documentation so your project starts on solid footing.',
@@ -131,6 +143,7 @@ const SERVICES = [
   },
   {
     file: 'service-storm.html',
+    gallery: ["img/work/storm-01.jpg", "img/work/storm-02.jpg", "img/work/storm-03.jpg", "img/work/storm-04.jpg", "img/work/storm-05.jpg"],
     title: 'Storm Damage',
     meta: 'Storm damage repair and restoration in Central Louisiana. Water, mold, and smoke damage restoration by Jessup Construction.',
     hero: 'img/disaster-img-6.png',
@@ -142,6 +155,7 @@ const SERVICES = [
   },
   {
     file: 'service-disaster.html',
+    gallery: ["img/work/disaster-01.jpg", "img/work/disaster-02.jpg", "img/work/disaster-04.jpg"],
     title: 'Disaster Relief',
     meta: 'Federal disaster relief contractor in Central Louisiana. CAGE Code certified for storm debris removal and emergency rebuilding.',
     hero: 'img/disaster-relief-1.jpg',
@@ -306,6 +320,19 @@ ${checkItems}
   </div>
 </section>
 
+${svc.gallery && svc.gallery.length ? `<!-- OUR WORK -->
+<section class="section-pad" style="background:#111;" aria-label="${svc.title} project photos">
+  <div class="container">
+    <div class="scroll-reveal" style="margin-bottom:var(--space-8);">
+      <p class="label">Our Work</p>
+      <h2 class="section-title" style="font-size:var(--text-h2);margin-top:var(--space-3);">${svc.title} by Jessup</h2>
+    </div>
+    <div class="work-gallery">
+${svc.gallery.map((src, i) => `      <figure class="gallery-item"><img src="${src}" alt="${svc.title} project by Jessup Construction, photo ${i + 1}" loading="lazy"></figure>`).join('\n')}
+    </div>
+  </div>
+</section>
+` : ''}
 <!-- CTA -->
 <section class="section-pad" style="background:var(--concrete-deep);text-align:center;" aria-label="Get a quote">
   <div class="container">
@@ -326,6 +353,10 @@ ${checkItems}
 
 ${FOOTER}
 <button id="scroll-top" class="scroll-top">&#8593;</button>
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button id="lightbox-close" class="lightbox-close" aria-label="Close">&#10005;</button>
+  <img id="lightbox-img" class="lightbox-img" src="" alt="">
+</div>
 <script src="main.js"></script>
 </body>
 </html>`;
