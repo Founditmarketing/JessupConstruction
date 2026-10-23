@@ -4,7 +4,7 @@
    ============================================================ */
 
 /* ----- GOOGLE FONTS ----- */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* ----- CSS RESET ----- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -213,11 +213,11 @@ body {
 .btn-primary {
   background: var(--safety-orange);
   color: #fff;
-  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 4px 20px rgba(239,201,3, 0.3);
 }
 .btn-primary:hover {
   background: #e85a28;
-  box-shadow: 0 6px 30px rgba(255, 107, 53, 0.45);
+  box-shadow: 0 6px 30px rgba(239,201,3, 0.45);
   transform: translateY(-1px);
 }
 
@@ -275,7 +275,7 @@ body {
 
 .nav-top-bar {
   background: var(--steel-black);
-  border-bottom: 1px solid rgba(255, 107, 53, 0.3);
+  border-bottom: 1px solid rgba(239,201,3, 0.3);
   padding: 6px 0;
 }
 .nav-top-content {
@@ -460,7 +460,7 @@ body {
 .nav-cta:hover {
   background: #e85a28;
   transform: translateY(-1px);
-  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.4);
+  box-shadow: 0 4px 20px rgba(239,201,3, 0.4);
 }
 
 /* MOBILE NAV */
@@ -543,7 +543,7 @@ body {
 .mobile-footer {
   margin-top: var(--space-8);
   padding-top: var(--space-8);
-  border-top: 1px solid rgba(255, 107, 53, 0.3);
+  border-top: 1px solid rgba(239,201,3, 0.3);
 }
 .mobile-phone {
   font-family: var(--font-display);
@@ -653,7 +653,7 @@ body {
   inset: 0;
   background: repeating-linear-gradient(
     45deg, transparent, transparent 2px,
-    rgba(255, 107, 53, 0.015) 2px, rgba(255, 107, 53, 0.015) 4px
+    rgba(239,201,3, 0.015) 2px, rgba(239,201,3, 0.015) 4px
   );
 }
 .page-hero-content {
@@ -716,8 +716,8 @@ body {
 }
 .form-input:focus, .form-textarea:focus, .form-select:focus {
   border-color: var(--safety-orange);
-  background: rgba(255, 107, 53, 0.04);
-  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+  background: rgba(239,201,3, 0.04);
+  box-shadow: 0 0 0 3px rgba(239,201,3, 0.1);
 }
 .form-input::placeholder, .form-textarea::placeholder {
   color: var(--concrete-dark);
@@ -779,7 +779,7 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: rgba(255, 107, 53, 0.15);
+  background: rgba(239,201,3, 0.15);
   border: 1px solid var(--safety-orange);
   display: flex;
   align-items: center;
@@ -842,8 +842,8 @@ body {
 /* ----- CERTIFICATION BADGES ----- */
 .cert-bar {
   background: #15191d;
-  border-top: 1px solid rgba(255, 107, 53, 0.2);
-  border-bottom: 1px solid rgba(255, 107, 53, 0.2);
+  border-top: 1px solid rgba(239,201,3, 0.2);
+  border-bottom: 1px solid rgba(239,201,3, 0.2);
   padding: var(--space-8) 0;
 }
 .cert-items {
@@ -864,8 +864,8 @@ body {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: rgba(255, 107, 53, 0.08);
-  border: 1px solid rgba(255, 107, 53, 0.3);
+  background: rgba(239,201,3, 0.08);
+  border: 1px solid rgba(239,201,3, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -935,7 +935,7 @@ body {
 .footer-social-link:hover {
   border-color: var(--safety-orange);
   color: var(--safety-orange);
-  background: rgba(255, 107, 53, 0.08);
+  background: rgba(239,201,3, 0.08);
 }
 .footer-col-title {
   font-family: var(--font-heading);
@@ -946,7 +946,7 @@ body {
   color: var(--concrete-white);
   margin-bottom: var(--space-6);
   padding-bottom: var(--space-3);
-  border-bottom: 1px solid rgba(255, 107, 53, 0.3);
+  border-bottom: 1px solid rgba(239,201,3, 0.3);
 }
 .footer-links { display: flex; flex-direction: column; gap: var(--space-3); }
 .footer-link {
@@ -1050,7 +1050,7 @@ body {
 .process-step-num {
   font-family: var(--font-display);
   font-size: 3rem;
-  color: rgba(255, 107, 53, 0.15);
+  color: rgba(239,201,3, 0.15);
   line-height: 1;
   margin-bottom: var(--space-3);
 }
@@ -1119,7 +1119,7 @@ body {
 .filter-btn:hover, .filter-btn.active {
   border-color: var(--safety-orange);
   color: var(--safety-orange);
-  background: rgba(255, 107, 53, 0.08);
+  background: rgba(239,201,3, 0.08);
 }
 
 /* ----- LIGHTBOX ----- */
@@ -1244,8 +1244,8 @@ body {
   display: inline-flex;
   align-items: center;
   gap: var(--space-3);
-  background: rgba(255, 107, 53, 0.08);
-  border: 1px solid rgba(255, 107, 53, 0.3);
+  background: rgba(239,201,3, 0.08);
+  border: 1px solid rgba(239,201,3, 0.3);
   border-radius: 100px;
   padding: 8px 20px;
   font-family: var(--font-heading);
@@ -1311,7 +1311,7 @@ body {
   transform: translateY(16px);
   transition: all var(--transition-base);
   z-index: 500;
-  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.4);
+  box-shadow: 0 4px 20px rgba(239,201,3, 0.4);
   border: none;
   font-size: 1rem;
 }
@@ -1325,3 +1325,178 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* ============================================================
+   JESSUP BRAND LAYER (10/23/2026)
+   The jessupconstruct.com identity: construction yellow #EFC903 on
+   black and white, Montserrat bold-italic uppercase headlines,
+   Source Sans body. Overrides the older orange "Katana" tokens in
+   place, so every inline var(--safety-orange) becomes the brand yellow.
+   ============================================================ */
+:root {
+  --brand-yellow: #EFC903;
+  --brand-yellow-deep: #D4B200;
+  --brand-ink: #0B0B0B;
+  --safety-orange: var(--brand-yellow);
+  --safety-yellow: var(--brand-yellow);
+  --steel-black: #0B0B0B;
+  --concrete-deep: #161616;
+  --concrete-white: #FFFFFF;
+  --concrete-light: #EDEDED;
+  --concrete-mid: #C9C9C9;
+  --concrete-dark: #9E9E9E;
+  --steel-mid: #B3B3B3;
+  --font-display: 'Montserrat', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+  --font-mono: 'Montserrat', sans-serif;
+  --radius-md: 6px;
+}
+body { background: var(--brand-ink); color: var(--concrete-light); font-size: 1.125rem; }
+::selection { background: var(--brand-yellow); color: var(--brand-ink); }
+
+/* Headlines: the house voice — heavy, italic, uppercase. */
+h1, h2, .section-title, .page-hero-title, .display, .card-title, .stat-number, .mega-menu-title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: italic;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+  letter-spacing: -0.01em !important;
+}
+h1 { line-height: 1.02 !important; }
+.section-title { color: #fff; line-height: 1.05; }
+.label, .card-category, .mono, .nav-link, .btn, .footer-col-title, .mega-col-title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: italic;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em;
+}
+.label { color: var(--brand-yellow); }
+.label::before { content: ''; display: inline-block; width: 28px; height: 3px; background: var(--brand-yellow); vertical-align: middle; margin-right: 10px; transform: skewX(-20deg); }
+.section-subtitle, .card-text, p { color: var(--concrete-mid); }
+.rebar-line { height: 4px; transform: skewX(-20deg); }
+
+/* Buttons: yellow with black words, the way the live site does it. */
+.btn { border-radius: 4px; text-transform: uppercase; }
+.btn-primary, .nav-cta {
+  background: var(--brand-yellow) !important;
+  color: var(--brand-ink) !important;
+  box-shadow: 0 10px 30px -10px rgba(239,201,3,0.55);
+}
+.btn-primary:hover, .nav-cta:hover {
+  background: #fff !important;
+  color: var(--brand-ink) !important;
+  box-shadow: 0 14px 36px -12px rgba(239,201,3,0.7);
+  transform: translateY(-2px);
+}
+.btn-outline { border-color: rgba(255,255,255,0.55); color: #fff; }
+.btn-outline:hover { border-color: var(--brand-yellow); color: var(--brand-yellow); background: transparent; }
+.scroll-top { background: var(--brand-yellow) !important; color: var(--brand-ink) !important; }
+.scroll-top:hover { background: #fff !important; }
+
+/* Header: white bar so the black Jessup logo reads, black top strip. */
+#site-nav, #site-nav.transparent, #site-nav.solid {
+  background: #fff !important;
+  backdrop-filter: none;
+  border-bottom: 4px solid var(--brand-yellow);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+}
+.nav-top-bar { background: var(--brand-ink); border-bottom: 0; }
+.nav-phone { color: #fff; font-weight: 600; }
+.nav-phone-icon, .nav-phone:hover { color: var(--brand-yellow); }
+.nav-main { padding: 10px 0; }
+.nav-logo img { height: 58px; filter: none; }
+.nav-link, .nav-services-trigger { color: #111 !important; }
+.nav-link:hover, .nav-link.active, .nav-services-trigger:hover { color: #000 !important; }
+.nav-link::after { background: var(--brand-yellow) !important; height: 3px; }
+.hamburger-line { background: #111 !important; }
+.mega-menu { background: #0F0F0F; border-top: 4px solid var(--brand-yellow); }
+.mega-menu-item:hover { color: var(--brand-yellow); }
+.mobile-overlay { background: var(--brand-ink); }
+.mobile-header { background: #fff; }
+
+/* Page heroes: real photo energy, a yellow slash on the edge. */
+.page-hero { border-bottom: 6px solid var(--brand-yellow); }
+.page-hero-overlay { background: linear-gradient(100deg, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.65) 45%, rgba(0,0,0,0.25) 100%) !important; }
+.page-hero-title { color: #fff; }
+#hero h1 { text-shadow: 0 6px 30px rgba(0,0,0,0.45); }
+
+/* Sections: true black and a warm charcoal, never blue-grey. */
+.section-dark { background: var(--brand-ink) !important; }
+.section-deep, .section-mid { background: #121212 !important; }
+section[style*="#15191d"] { background: #111 !important; }
+.texture-concrete { background-color: #141414 !important; }
+
+/* Cards: dark tiles, yellow edge and lift on hover, photo zoom. */
+.card {
+  background: #161616 !important;
+  border: 1px solid #262626 !important;
+  border-radius: 6px !important;
+  overflow: hidden;
+  transition: transform .3s ease, border-color .3s ease, box-shadow .3s ease;
+}
+.card:hover { transform: translateY(-6px); border-color: var(--brand-yellow) !important; box-shadow: 0 24px 50px -24px rgba(0,0,0,0.9), 0 0 0 1px var(--brand-yellow); }
+.card-img-wrap { position: relative; }
+.card-img-wrap::after { content: ''; position: absolute; inset: auto 0 0 0; height: 5px; background: var(--brand-yellow); transform: scaleX(0); transform-origin: left; transition: transform .35s ease; }
+.card:hover .card-img-wrap::after { transform: scaleX(1); }
+.card-img-wrap img { transition: transform .6s ease; }
+.card:hover .card-img-wrap img { transform: scale(1.07); }
+.card-title { color: #fff; font-size: 1.35rem !important; }
+.card-category { color: var(--brand-yellow); }
+.card-link { color: var(--brand-yellow) !important; font-weight: 700; }
+
+/* Check lists, stats, forms. */
+.check-icon { border-color: var(--brand-yellow) !important; color: var(--brand-ink) !important; background: var(--brand-yellow); }
+.stat-number { color: var(--brand-yellow) !important; }
+.form-input, .form-textarea, .form-select { background: #151515; border-color: #2c2c2c; color: #fff; }
+.form-input:focus, .form-textarea:focus, .form-select:focus { border-color: var(--brand-yellow); box-shadow: 0 0 0 3px rgba(239,201,3,0.18); outline: none; }
+.cert-bar { background: var(--brand-yellow) !important; border: 0 !important; }
+.cert-bar, .cert-bar * { color: var(--brand-ink) !important; }
+/* Hazard stripes as a frame, never behind words. */
+.emergency-band { background: #0E0E0E !important; position: relative; border: 0 !important; padding-top: calc(var(--space-12) + 12px) !important; padding-bottom: calc(var(--space-12) + 12px) !important; }
+.emergency-band::before, .emergency-band::after { content: ''; position: absolute; left: 0; right: 0; height: 12px; background: repeating-linear-gradient(-45deg, var(--brand-yellow) 0 16px, #0E0E0E 16px 32px); }
+.emergency-band::before { top: 0; }
+.emergency-band::after { bottom: 0; }
+.emergency-band > * { position: relative; }
+h1 *, h2 * { font-weight: inherit !important; font-style: inherit !important; font-family: inherit !important; }
+
+/* Footer: black with the yellow rule. */
+.site-footer { background: #070707 !important; border-top: 6px solid var(--brand-yellow); }
+.footer-brand-logo { background: #fff; padding: 10px 14px; border-radius: 4px; height: 64px !important; }
+.footer-link:hover, .footer-contact-item a:hover { color: var(--brand-yellow) !important; }
+
+/* Reveal fast and never leave a section blank if the observer is late. */
+.scroll-reveal { transition-duration: .55s !important; }
+@media (prefers-reduced-motion: reduce) { .scroll-reveal { opacity: 1 !important; transform: none !important; } }
+
+/* Anything sitting ON a yellow fill speaks in black (stat boxes, number badges). */
+[style*="background:var(--safety-orange)"], [style*="background:var(--safety-orange)"] * ,
+[style*="background: var(--safety-orange)"], [style*="background: var(--safety-orange)"] * { color: var(--brand-ink) !important; }
+
+/* Phone: logo, Get Quote and the menu button always fit on one row; the
+   certifications become a tight two-column grid instead of a tall stack. */
+@media (max-width: 768px) {
+  .nav-logo img { height: 44px; }
+  .nav-cta { padding: 9px 14px !important; font-size: 0.78rem !important; }
+  .nav-main-inner { gap: 10px; }
+  .nav-hamburger { flex-shrink: 0; }
+  .cert-bar { padding: var(--space-6) 0 !important; }
+  .cert-items { display: grid !important; grid-template-columns: 1fr 1fr; gap: var(--space-6) var(--space-4) !important; }
+  .cert-item { gap: 4px !important; }
+  .cert-icon { width: 40px !important; height: 40px !important; }
+  .cert-name { font-size: 0.8rem !important; }
+  .cert-desc { font-size: 0.68rem !important; }
+}
+
+/* Montserrat runs far wider than the old condensed face: size headlines by
+   the screen so "CONSTRUCTION" never pushes the page past a phone's width. */
+:root {
+  --text-hero: clamp(2.4rem, 10.5vw, 6rem);
+  --text-display: clamp(2rem, 7.5vw, 4rem);
+  --text-h1: clamp(1.9rem, 7vw, 3rem);
+}
+#hero h1, .page-hero-title, section[aria-label$="hero"] h1 { font-size: var(--text-hero) !important; }
+section[aria-label$="hero"] h1 { font-size: clamp(2.1rem, 9vw, 4.25rem) !important; }
+h1, h2, .section-title { overflow-wrap: break-word; hyphens: manual; }
+html, body { max-width: 100%; overflow-x: hidden; }

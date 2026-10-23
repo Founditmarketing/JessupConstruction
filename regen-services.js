@@ -13,7 +13,7 @@ const SERVICES = [
     file: 'service-commercial.html',
     title: 'Commercial Construction',
     meta: 'Commercial construction services in Central Louisiana. New construction, renovations, turnkey design-build for office, retail, and industrial properties.',
-    hero: 'img/commercial-office-1.jpg',
+    hero: 'img/commercial-img-4.png',
     category: 'Construction',
     tagline: "Building Louisiana's Business Future",
     desc: 'We are a Native American owned General Contractor with licenses in Commercial and Residential Building Construction. From corporate office renovations to full-scale industrial builds, we deliver projects on time and within budget. Occupied and fully operational job sites are never a problem.',
@@ -23,7 +23,7 @@ const SERVICES = [
     file: 'service-housing.html',
     title: 'Affordable Housing',
     meta: 'Affordable housing construction in Central Louisiana. Custom homes and modular housing built with quality materials within your budget.',
-    hero: 'img/housing-home-1.jpg',
+    hero: 'img/housing-home-5.jpg',
     category: 'Residential',
     tagline: "Quality Homes Within Your Budget",
     desc: 'Custom homes do not have to break the bank. Jessup Construction works with you to design and build a home you will love — using quality materials, within your budget. We are both designers and builders, collaborating directly with you from start to finish.',
@@ -33,7 +33,7 @@ const SERVICES = [
     file: 'service-reno.html',
     title: 'Residential Renovations',
     meta: 'Residential renovation services in Central Louisiana. Kitchen, bathroom, outdoor patio, and whole-house renovations by Jessup Construction.',
-    hero: 'img/reno-bathroom-1.jpg',
+    hero: 'img/reno-img-4.png',
     category: 'Renovation',
     tagline: "Transform Your Space",
     desc: 'From bathroom remodels to complete home transformations, Jessup Construction handles renovations of any scale. We collaborate with you and your designer to deliver exactly the result you envisioned — on budget and on time.',
@@ -43,7 +43,7 @@ const SERVICES = [
     file: 'service-concrete.html',
     title: 'Concrete',
     meta: 'Concrete construction services in Central Louisiana. Foundations, slabs, driveways, patios, and parking surfaces by Jessup Construction.',
-    hero: 'img/concrete-slab-1.jpg',
+    hero: 'img/concrete-img-7.png',
     category: 'Infrastructure',
     tagline: "The Most Durable Surface Available",
     desc: 'Concrete is the most durable surface available for driveways, foundations, parking lots, patios, and industrial floors. Jessup Construction has the crews and equipment to pour, finish, and deliver concrete work that lasts for generations.',
@@ -52,12 +52,12 @@ const SERVICES = [
   {
     file: 'service-helical.html',
     title: 'Helical Piers',
-    meta: 'Certified helical pier installation in Central Louisiana. Foundation support and stabilization for new construction and settling structures by Jessup Construction.',
+    meta: 'Certified helical pier installation in Central Louisiana. Deep, load-bearing support for new construction, additions, decks, and porches by Jessup Construction.',
     hero: 'img/helical-pier-1.jpg',
-    category: 'Foundations',
-    tagline: "Stronger Foundations for a Brighter Tomorrow",
-    desc: "Jessup Construction now offers certified helical pier installation. Helical piers are steel shafts with screw-shaped plates that are driven deep into the ground until they reach stable, load-bearing soil — giving your structure a foundation that holds even where Central Louisiana's clay and wet soils shift. They are a strong choice for new foundations and for stabilizing structures that have started to settle.",
-    items: ['Helical pier installation for new foundations','Foundation repair and stabilization for settling structures','Support for slabs, additions, decks, and porches','Installation in soft, wet, or expansive Louisiana soils','Hydraulic installation with minimal excavation','Load-bearing capacity verified as each pier is installed'],
+    category: 'Infrastructure',
+    tagline: "Solid Support for New Construction",
+    desc: "Jessup Construction now offers certified helical pier installation. Helical piers are steel shafts with screw-shaped plates that are driven deep into the ground until they reach stable, load-bearing soil — giving your structure a foundation that holds even where Central Louisiana's clay and wet soils shift. They are a strong choice for new construction, additions, decks, and porches.",
+    items: ['Helical pier installation for new foundations','Support for slabs, additions, decks, and porches','Installation in soft, wet, or expansive Louisiana soils','Hydraulic installation with minimal excavation','Load-bearing capacity verified as each pier is installed'],
   },
   {
     file: 'service-asphalt.html',
@@ -73,7 +73,7 @@ const SERVICES = [
     file: 'service-roofing.html',
     title: 'Roofing',
     meta: 'Roofing services in Central Louisiana. Asphalt shingle and metal roofing for commercial and residential properties.',
-    hero: 'img/roofing-site-1.jpg',
+    hero: 'img/roofing-1.png',
     category: 'Infrastructure',
     tagline: "Any Roof, Any Structure",
     desc: 'Commercial and residential roofing for any type of structure. Jessup Construction installs asphalt shingle and metal roofing systems built to withstand Central Louisiana weather. From simple repairs to complete new roof installations.',
@@ -93,7 +93,7 @@ const SERVICES = [
     file: 'service-boathouse.html',
     title: 'Boathouse Construction',
     meta: 'Custom boathouse construction on Central Louisiana waterways. From standard builds to going all out with party decks.',
-    hero: 'img/boathouse-hero-1.jpg',
+    hero: 'img/boathouse-img-5.png',
     category: 'Waterfront',
     tagline: "Custom Waterfront Structures",
     desc: 'Jessup Construction builds custom boathouses on all Central Louisiana waterways — from standard boathouses to "going all out" party deck builds. We understand the unique requirements of waterfront construction and deliver structures built to last.',
@@ -103,7 +103,7 @@ const SERVICES = [
     file: 'service-seawalls.html',
     title: 'Seawalls',
     meta: 'Seawall construction and shoreline protection in Central Louisiana. Pneumatically driven pylons and custom anchoring.',
-    hero: 'img/seawall-project-1.jpg',
+    hero: 'img/disaster-img-2.png',
     category: 'Waterfront',
     tagline: "Shoreline Protection That Lasts",
     desc: 'Protect your shoreline from erosion with a custom-engineered seawall from Jessup Construction. We serve all Central Louisiana waterways with seawall construction, repair, and shoreline stabilization solutions.',
@@ -113,7 +113,7 @@ const SERVICES = [
     file: 'service-fencing.html',
     title: 'Privacy Fencing',
     meta: 'Custom privacy fencing in Central Louisiana. Wood, ornate gates, and custom fencing by Jessup Construction.',
-    hero: 'img/fencing-gate-1.jpg',
+    hero: 'img/fencing-img-3.png',
     category: 'Specialty',
     tagline: "Custom Privacy Solutions",
     desc: 'Jessup Construction builds custom privacy fencing for residential and commercial properties. We collaborate with you on design to deliver fencing that matches your style and enhances your property.',
@@ -133,7 +133,7 @@ const SERVICES = [
     file: 'service-storm.html',
     title: 'Storm Damage',
     meta: 'Storm damage repair and restoration in Central Louisiana. Water, mold, and smoke damage restoration by Jessup Construction.',
-    hero: 'img/storm-damage-1.jpg',
+    hero: 'img/disaster-img-6.png',
     category: 'Emergency',
     tagline: "Fast Response. Complete Restoration.",
     desc: 'Jessup Construction is an experienced leader in Central Louisiana storm damage restoration. Water, mildew, mold, and smoke damage — we respond fast and restore completely. Federally Certified National Contractor for Storm Disaster and Relief.',
@@ -262,7 +262,7 @@ ${NAV}
 <main id="main">
 
 <!-- HERO -->
-<section style="position:relative;min-height:55vh;display:flex;align-items:flex-end;overflow:hidden;padding-top:80px;" aria-label="${svc.title} hero">
+<section style="position:relative;min-height:68vh;display:flex;align-items:flex-end;overflow:hidden;padding-top:130px;border-bottom:6px solid var(--brand-yellow);" aria-label="${svc.title} hero">
   <img src="${svc.hero}" alt="${svc.title} — Jessup Construction"
        style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;" loading="eager">
   <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.5) 55%,rgba(0,0,0,0.15) 100%);z-index:1;"></div>
